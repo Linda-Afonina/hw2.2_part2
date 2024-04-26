@@ -1,4 +1,4 @@
-public abstract class Transport {
+public abstract class Transport implements UpdatingTyre, CheckingTrailer, CheckingEngine{
     protected final String modelName;
     protected final int wheelsCount;
 
